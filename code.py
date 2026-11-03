@@ -3,5 +3,5 @@ def percent_correct(score, total):
     if total == 0:
         return 0
     return round(100 * score / total)
-
 print(percent_correct(2,20))
+print(percent_correct(3,30))
